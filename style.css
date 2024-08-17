@@ -476,3 +476,20 @@ span {
   transition: .5s ease;
   z-index: 9999;
 }
+
+.search-icon {
+  place-items: center;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.user-icon {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
