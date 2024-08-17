@@ -217,7 +217,6 @@ span {
   transition: 0.5s ease;
   object-fit: cover;
   object-position: center;
-  transform: scale(1.03);
 }
 
 .skills-content .progress h3 {
@@ -247,7 +246,7 @@ span {
 }
 
 .skills-content .progress h3 span {
-  color: var(--nav-color);
+  color: var(--main-color);
   transition: 0.5s ease;
 }
 
@@ -349,14 +348,11 @@ span {
   background-color: pink;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px var(--primary-color);
   transition: .5s ease-in-out;
   margin: 10px;
 }
 
 .card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px var(--primary-color);
   transition: .5s ease-in-out;
   user-select: none;
 }
@@ -366,7 +362,6 @@ span {
   background-color: pink;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px var(--primary-color);
   transition: .5s ease-in-out;
   margin: 10px;
 
@@ -376,8 +371,6 @@ span {
   }
 
   &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px var(--primary-color);
     transition: .5s ease-in-out;
     user-select: none;
   }
@@ -392,6 +385,17 @@ span {
     margin: 4px 2px;
     cursor: pointer;
     transition: 0.3s ease;
+    &:hover {
+      background-color: #45a049;
+      transition: 0.5s ease;
+      box-shadow: 0 0 10px var(--bg-color);
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
   }
 }
 
@@ -444,4 +448,16 @@ span {
 
 .contact-form button:hover {
   background-color: hsl(100, 80%, 43%);
+}
+
+.footer {
+  background-color: var(--nav-color);
+  padding: 20px;
+  margin: 10px 0 0 0;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  transition: .5s ease;
+  z-index: 9999;
 }
