@@ -530,7 +530,6 @@ span {
 }
 
 .user-icon {
-  /* display: none; */
   cursor: pointer;
   transition: 0.5s ease;
 
@@ -594,7 +593,7 @@ font-family: 'Times New Roman', Times, serif;
     background: transparent;
     border: none;
 }
-/* login form starts */
+
 .container-login, .container-signup, .forgetPW
 {
     display: none;
@@ -682,7 +681,6 @@ border-radius: 10px;
 {
     margin: auto;
 }
-/* login form ends */
 
 @media (max-width: 768px) {
     .container-login, .container-signup, .forgetPW {
@@ -690,4 +688,18 @@ border-radius: 10px;
         width: 80%; 
         max-width: none; 
     }
+}
+
+@media screen and (max-width: 650px) {
+  .navbar {
+    --webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    --webkit-filter: blur(20px);
+    filter: blur(20px);
+  }
 }
