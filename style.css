@@ -620,7 +620,7 @@ border-radius: 10px;
 
 .container-signup
 {
-    position: fixed;
+position: fixed;
 left: 30%;
 top: 10%;
 padding: 10px;
@@ -629,7 +629,7 @@ background-color: white;
 border: 2px solid green;
 border-radius: 10px;
  max-height: 80vh; 
- /* overflow-y: auto; */
+ overflow-y: auto;
  overflow-y: auto;
  overflow-x: hidden;
  width: 500px;
@@ -680,6 +680,7 @@ border-radius: 10px;
 #button-signup, .forgetPWBtn
 {
     margin: auto;
+    margin-top: 20px;
 }
 
 @media (max-width: 768px) {
@@ -689,45 +690,3 @@ border-radius: 10px;
         max-width: none; 
     }
 }
-
-/* @media screen and (max-width: 900px) {
-  .navbar {
-    --webkit-filter: blur(10px);
-    filter: blur(10px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-    --webkit-filter: blur(5px);
-    filter: blur(5px);
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .navbar {
-    --webkit-filter: blur(5px);
-    filter: blur(5px);
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .navbar {
-    --webkit-filter: blur(10px);
-    filter: blur(10px);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .navbar {
-    --webkit-filter: blur(15px);
-    filter: blur(15px);
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .navbar {
-    --webkit-filter: blur(20px);
-    filter: blur(20px);
-  }
-} */
