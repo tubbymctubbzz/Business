@@ -690,3 +690,16 @@ border-radius: 10px;
         max-width: none; 
     }
 }
+
+input[type="text"]:hover {
+  box-shadow: 0 0 10px green;
+  transition: 0.5s ease;
+  cursor: text;
+  color: black;
+}
+
+button[type="submit"]:hover {
+  box-shadow: 0 0 10px green;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
