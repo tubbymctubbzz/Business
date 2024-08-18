@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="logo" id="logo">
+      <img src="../images/logo-png.png" alt="harvey"><a href="../index.html"></a>
+    </div>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <div class="user-icon">
+      <i class='bx bx-user'><a href="./login/index.html"></a></i>
+    </nav>
+
+    <section class="section" id="info">
+        <div class="info">
+            <h1>Notice</h1>
+            <div class="topRow">
+       
+                <button id="button-openform"><p><i class="bi bi-person-circle"></i><span class="non-italic"> Login | Sign up</span></p></button>
+            </div>
+            <section class="admin">
+                <div class="container-login">
+                   <div class="closeButton"> <i class="bi bi-x-lg"></i></div>
+                    <form action="">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" placeholder="Enter your User Name">
+        
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your Password">
+                        <div class="loginbuttons">
+                        <button class="button-login" >Login</button>
+                        <button class="button-login-signup">Sign Up</button>
+                    </div>
+                        <a class="forgetPWLink" href="">Forget Password</a> 
+                    </form>
+                    </div>
+        
+               
+                <div class="container-signup">
+                    <div class="closeButtonSignup"> <i class="bi bi-x-lg"></i></div>
+                    <form action="">
+                        
+                        <label for="firstname">First Name <span class="required">*</span></label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Enter your First Name">
+        
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Enter your Last Name">
+        
+                         <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+        
+                        <label for="username">Username <span class="required">*</span></label>
+                        <input type="text" name="username" id="username" placeholder="Enter your Username">
+        
+                        <label for="set-password">Set Password <span class="required">*</span></label>
+                        <input type="password" name="set-password" id="set-password" placeholder="Enter the Password">
+        
+                        <label for="confirm-password">Confirm Password <span class="required">*</span></label>
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password">
+        
+                        <label for="address">Address line 1 <span class="required">*</span></label>
+                        <input type="text" name="address" id="address" placeholder="Address Line 1">
+        
+                        <label for="address">Address line 2</label>
+                        <input type="text" name="address" id="address" placeholder="Address Line 2">
+        
+                        <label for="city">City <span class="required">*</span></label>
+                        <input type="text" name="city" id="city" placeholder="Enter your City">
+        
+                        <label for="state">State <span class="required">*</span></label>
+                        <input type="text" name="state" id="state" placeholder="Enter your State">
+        
+                        <label for="pincode">Pincode <span class="required">*</span></label>
+                        <input type="number" name="pincode" id="pincode" placeholder="Enter the Pincode">
+        
+                        <button id="button-signup">Sign Up</button>
+                    </form>
+                </div> 
+                    <div class="forgetPW">
+                        <div class="closeButtonForgetPW"> <i class="bi bi-x-lg"></i></div>
+                        <form action="">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" id="username" placeholder="Enter the Username">
+        
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your Email">
+        
+                            <button class="forgetPWBtn">Submit</button>
+                            <p>Note - Password is sent to registered Email</p>
+                        </form>
+                    </div>
+            </section>
+            <p>This page is where you can register for an account or login if you already have an account!</p>
+        </div>
+    </section>
+
+    <section class="section" id="moreinfo">
+        <div class="moreinfo">
+            <h1>About Us</h1>
+            <p>I am a passionate developer with a few years experience looking to enhance my skills in the field</p>
+            <p>I specialize in HTML, CSS, and JavaScript.</p>
+            <p>Feel free to contact us if you have any questions or need assistance with your project.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; Harvey. All rights reserved.</p>
+    </footer>
+</nav>
+
+<script src="../script.js"></script>
+ 
+</body>
+</html>

@@ -30,13 +30,20 @@ body {
   align-items: center;
   border-bottom: 1px solid var(--main-color);
   z-index: 9999;
+
+  a {
+    color: var(--nav-color);
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
 }
 
 .logo img {
   width: 75px;
   transition: .5s ease;
   cursor: pointer;
-  margin-right: 2px;
+  margin-right: -18px;
   margin-left: 2px;
   margin-bottom: -3px;
 
@@ -562,4 +569,125 @@ span {
   &:hover i {
     color: white;
   }
+}
+
+html, body
+{
+margin-left: 4%;
+margin-right: 4%;
+margin-top: 0%;
+font-family: 'Times New Roman', Times, serif;
+
+}
+.topRow
+{
+    display: flex;
+    gap: 19px;
+    justify-content: flex-end;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+}
+.topRow button
+{
+    background: transparent;
+    border: none;
+}
+/* login form starts */
+.container-login, .container-signup, .forgetPW
+{
+    display: none;
+    
+}
+
+.closeButton, .closeButtonSignup, .closeButtonForgetPW
+{
+   position: relative;
+    left: 95%;
+}
+
+.container-login, .forgetPW
+{
+position: fixed;
+left: 30%;
+top: 20%;
+padding: 10px;
+width: 500px;
+background-color: white;
+border: 2px solid green;
+border-radius: 10px;
+}
+
+.container-signup
+{
+    position: fixed;
+left: 30%;
+top: 10%;
+padding: 10px;
+
+background-color: white;
+border: 2px solid green;
+border-radius: 10px;
+ max-height: 80vh; 
+ /* overflow-y: auto; */
+ overflow-y: auto;
+ overflow-x: hidden;
+ width: 500px;
+    
+}
+
+.container-login form, .container-signup form, .forgetPW form
+{
+    display: grid;
+   gap: 5px;
+   padding: 10px;
+}
+
+.container-login label, .container-signup label, .forgetPW label
+{
+    color: green;
+    font-size: 17px;
+}
+
+.container-login input, .container-signup input, .forgetPW input
+{
+    height: 30px;
+    background-color: transparent;
+    opacity: 0.9;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.loginbuttons
+{
+    display: flex;
+    margin: auto;
+    gap: 20px;
+}
+
+.button-login, .button-login-signup, #button-signup, .forgetPWBtn
+{
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: white;
+    
+}
+#button-signup, .forgetPWBtn
+{
+    margin: auto;
+}
+/* login form ends */
+
+@media (max-width: 768px) {
+    .container-login, .container-signup, .forgetPW {
+        left: 10%; 
+        width: 80%; 
+        max-width: none; 
+    }
 }
