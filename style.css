@@ -690,7 +690,7 @@ border-radius: 10px;
     }
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   .navbar {
     --webkit-filter: blur(10px);
     filter: blur(10px);
@@ -730,4 +730,4 @@ border-radius: 10px;
     --webkit-filter: blur(20px);
     filter: blur(20px);
   }
-}
+} */
