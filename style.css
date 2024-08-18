@@ -732,3 +732,63 @@ button[type="submit"]:hover {
   transition: .5s ease;
   margin-bottom: 10px;
 }
+
+
+.download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img {
+    width: 165px;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+}
+
+.bgimg {
+  background-image: url(image.jpg) no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: .5s ease;
+  }
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
