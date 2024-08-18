@@ -477,19 +477,21 @@ span {
   z-index: 9999;
 }
 
-.search-icon {
-  place-items: center;
-  cursor: pointer;
-
-  &:hover {
-    transform: scale(1.2);
-  }
-}
-
 .user-icon {
   cursor: pointer;
+  transition: 0.5s ease;
 
   &:hover {
     transform: scale(1.2);
+    transition: 0.5s ease;
+  }
+
+  i {
+    font-size: 20px;
+    color: white;
+  }
+
+  &:hover i {
+    color: blue;
   }
 }
