@@ -793,11 +793,11 @@ hr {
   align-items: center;
   flex-wrap: wrap;
   font-size: 20px;
-  transition: .5s ease-in-out;
+  transition: .5s ease;
 
   &:hover {
     transform: scale(1.3);
-    transition: .5s ease-in-out;
+    transition: .5s ease;
     cursor: pointer;
     color: blue;
   }
