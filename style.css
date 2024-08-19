@@ -25,10 +25,10 @@ html {
   position: sticky;
   top: 0;
   background-color: transparent;
-  --webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  --webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
   color: var(--main-color);
-  padding: 10px;
+  padding: 6px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -421,7 +421,28 @@ span {
   border-radius: 5px;
   transition: .5s ease-in-out;
   margin: 10px;
+
+  i {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+  }
 }
+
+.use {
+  content: "";
+}
+
+.use:hover {
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
 
 .card:hover {
   transition: .5s ease-in-out;
@@ -522,6 +543,7 @@ span {
 }
 
 .footer {
+  text-align: center;
   background-color: var(--nav-color);
   padding: 20px;
   margin: 5px;
@@ -529,7 +551,28 @@ span {
   left: -5px;
   right: -1px;
   color: white;
+  font-size: 15px;
+}
+
+.terms {
+  margin-top: 20px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2ch;
+
+  a {
+    color: #555;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+
+  a:hover {
+    background-color: white;
+    --webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
 }
 
 .user-icon {
