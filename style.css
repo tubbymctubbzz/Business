@@ -574,14 +574,6 @@ span {
   }
 }
 
-html, body
-{
-margin-left: 4%;
-margin-right: 4%;
-margin-top: 0%;
-font-family: 'Times New Roman', Times, serif;
-
-}
 .topRow
 {
     display: flex;
@@ -791,4 +783,21 @@ button[type="submit"]:hover {
 hr {
   margin: auto;
   width: 40%;
+}
+
+
+.store-icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  transition: .5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    color: blue;
+  }
 }
