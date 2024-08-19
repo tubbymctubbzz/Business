@@ -121,7 +121,6 @@ var countDownDate = new Date("Jan 5, 2026 15:37:25").getTime();
 
 var x = setInterval(function() {
 
-  // Get todays date and time
   var now = new Date().getTime();
 
   var distance = countDownDate - now;
