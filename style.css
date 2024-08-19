@@ -787,6 +787,7 @@ hr {
 
 
 .store-icon {
+  margin: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -795,7 +796,7 @@ hr {
   transition: .5s ease-in-out;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: .5s ease-in-out;
     cursor: pointer;
     color: blue;
