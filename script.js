@@ -117,6 +117,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Countdown timer
+
+<p id="demo"></p>
+
 var countDownDate = new Date("Jan 5, 2026 15:37:25").getTime();
 
 var x = setInterval(function() {
