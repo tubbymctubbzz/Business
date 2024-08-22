@@ -1140,6 +1140,7 @@ p {
     text-align: center;
     text-decoration: underline;
     color: red;
+    margin-bottom: 20px;
   }
 
   p {
