@@ -127,3 +127,11 @@ function closeMe() {
   document.querySelector('dialog').close()
   window.location.href = 'https://tubbymctubbzz.github.io/Business/index.html'
 }
+
+
+function openDialog() {
+  document.querySelector('dialog').showModal()
+}
+function closeDialog() {
+  document.querySelector('dialog').close()
+}
