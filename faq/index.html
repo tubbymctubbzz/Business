@@ -18,11 +18,6 @@
     <ul class="menu">
       <li><a href="../index.html">Home</a></li>
     </ul>
-    <!-- <div class="burger">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div> -->
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <div class="store-icon">
@@ -33,7 +28,11 @@
   <section class="section" id="faq-title">
     <div class="faq-title">
       <h1>Frequently Asked Questions</h1>
-      <p class="faq-paragraph">hover over them to see the other side.</p>
+      <dialog>
+        <p>hover over them to see the other side. <em>If on Mobile hold it down.</em></p>
+        <button onclick="closeMe()">Close Dialog</button>
+      </dialog>
+      <button onclick="openMe()">Open Dialog</button>
     </div>
   </section>
 
