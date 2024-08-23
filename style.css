@@ -1040,6 +1040,7 @@ span.text{
   padding: 0.5em 0;
   font-weight: 400;
 }
+
 @media screen and (max-width: 1024px){
   .navbar {
     filter: blur(1px);
@@ -1053,6 +1054,7 @@ span.text{
       font-size: 12px;
   }
 }
+
 @media screen and (max-width: 768px){
   .navbar {
     filter: blur(1px);
@@ -1068,6 +1070,7 @@ span.text{
       font-size: 14px;
   }
 }
+
 @media screen and (max-width: 480px){
   .navbar {
     filter: blur(1px);
