@@ -1044,18 +1044,21 @@ span.text{
 @media screen and (max-width: 1024px){
   .navbar {
     background-color: #222;
+    filter: blur(1px);
   }
 }
 
 @media screen and (max-width: 768px){
   .navbar {
     background-color: #222;
+    filter: blur(1px);
   }
 }
 
 @media screen and (max-width: 480px){
   .navbar {
     background-color: #222;
+    filter: blur(1px);
   }
 }
 
