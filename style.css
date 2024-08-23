@@ -5,9 +5,16 @@
 
 :root {
   --bg-color: #333;
-  --main-color: #fff;
+  --main-color: white;
   --nav-color: black;
+  --text-color: white;
 }
+
+/* .darkmode {
+  --bg-color: #333;
+  --main-color: #fff;
+  --text-color: white;
+} */
 
 body {
   margin: 10px;
@@ -22,6 +29,7 @@ html {
 }
 
 .navbar {
+  font-size: 2rem;
   position: sticky;
   top: 0;
   background-color: transparent;
@@ -64,7 +72,6 @@ html {
       left: 0;
       width: 100%;
       height: 2px;
-      background-color: var(--main-color);
       transform: scaleX(0);
       transition: transform 0.5s ease;
     }
@@ -75,7 +82,6 @@ html {
       left: 0;
       width: 100%;
       height: 2px;
-      background-color: var(--main-color);
       transform: scaleX(0);
       transition: transform 0.5s ease;
     }
@@ -89,7 +95,7 @@ html {
 }
 
 li a {
-  font-size: 14px;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   color: var(--main-color);
@@ -1035,6 +1041,9 @@ span.text{
   font-weight: 400;
 }
 @media screen and (max-width: 1024px){
+  .navbar {
+    filter: blur(2px);
+  }
   .countdown{
       width: 85vw;
   }
@@ -1045,6 +1054,9 @@ span.text{
   }
 }
 @media screen and (max-width: 768px){
+  .navbar {
+    filter: blur(1.5px);
+  }
   .countdown{
       width: 90vw;
       flex-wrap: wrap;
@@ -1057,6 +1069,9 @@ span.text{
   }
 }
 @media screen and (max-width: 480px){
+  .navbar {
+    filter: blur(1.2px);
+  }
   .countdown{
       gap: 15px;
   }
@@ -1150,3 +1165,34 @@ p {
     padding: 10px;
   }
 }
+
+h1 {
+  color: var(--text-color);
+}
+
+/* #theme-switch {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #777;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#theme-switch svg {
+  fill: var(--text-color);
+}
+
+#theme-switch svg:last-child {
+  display: none;
+}
+
+.darkmode #theme-switch svg:first-child {
+  display: none;
+}
+
+.darkmode #theme-switch svg:last-child {
+  display: block;
+} */

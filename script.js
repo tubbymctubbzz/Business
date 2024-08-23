@@ -135,3 +135,36 @@ function openDialog() {
 function closeDialog() {
   document.querySelector('dialog').close()
 }
+
+// let darkmode = localstorage.getItem('darkmode');
+// const themeSwitch = document.getElementById('theme-switch');
+
+// const enableDarkMode = () => {
+//   document.body.classList.add('darkmode');
+//   localStorage.setItem('darkmode', 'active');
+// }
+
+// const disableDarkMode = () => {
+//   document.body.classList.remove('darkmode');
+//   localStorage.removeItem('darkmode');
+// }
+
+// themeSwitch.addEventListener("click", () => {
+//   darkmode !== "active" ? enableDarkMode() : disableDarkMode()
+// })
+
+// function toggleDarkMode() {
+//   document.body.classList.toggle('dark-mode');
+// }
+
+// function toggleDarkMode() {
+//   let darkmode = document.body.classList.toggle('dark-mode');
+//   localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+// }
+
+// document.addEventListener('DOMContentLoaded', (_event) => {
+//   if (localStorage.getItem('darkMode') === 'enabled') {
+//     document.body.classList.add('dark-mode');
+//     themeSwitch.checked = true;
+//   }
+// });
