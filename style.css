@@ -1043,7 +1043,7 @@ span.text{
 
 @media screen and (max-width: 1024px){
   .navbar {
-    --webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
   }
   .countdown{
       width: 85vw;
@@ -1057,8 +1057,7 @@ span.text{
 
 @media screen and (max-width: 768px){
   .navbar {
-    --webkit-backdrop-filter: blur(1px);
-    filter: blur(1px);
+    backdrop-filter: blur(2px);
   }
   .countdown{
       width: 90vw;
@@ -1074,7 +1073,7 @@ span.text{
 
 @media screen and (max-width: 480px){
   .navbar {
-    --webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
   }
   .countdown{
       gap: 15px;
