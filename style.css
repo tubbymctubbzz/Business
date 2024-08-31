@@ -765,6 +765,8 @@ button[type="submit"]:hover {
   background-color: white;
   border-radius: 5px;
   transition:  .5s ease;
+  background-image: url(./images/logo-png.png);
+  background-size: cover;
 }
 
 ::-webkit-scrollbar-track {
