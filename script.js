@@ -19,7 +19,6 @@ function scrollFunction() {
   }
 }
 
-
 // let menuIcon = document.querySelector('#menu-icon');
 // let navbar = document.querySelector('.navbar');
 
@@ -168,3 +167,4 @@ function closeDialog() {
 //     themeSwitch.checked = true;
 //   }
 // });
+

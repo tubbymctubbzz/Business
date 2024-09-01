@@ -1165,3 +1165,46 @@ h1 {
   background-color: pink;
   border-radius: 10px;
 }
+
+.scroll-top {
+  position: fixed;
+  background-color: #555;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 10px;
+  transition: .5s ease;
+
+  :hover {
+    transform: scale(1.1);
+    transition: .5s ease;
+  }
+
+  .facebook:hover {
+    color: #3b5998;
+    transition: .5s ease;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: .5s ease;
+  }
+}
