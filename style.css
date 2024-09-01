@@ -1181,4 +1181,8 @@ h1 {
     text-decoration: none;
     font-size: 20px;
   }
+
+  i {
+    size: 1rem;
+  }
 }
