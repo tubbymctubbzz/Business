@@ -124,7 +124,7 @@ function openMe() {
 }
 function closeMe() {
   document.querySelector('dialog').close()
-  window.location.href = 'https://tubbymctubbzz.github.io/Business/index.html'
+  window.location.href = 'https://tubbymctubbzz.github.io/Business/home/'
 }
 
 
