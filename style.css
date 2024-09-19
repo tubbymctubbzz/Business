@@ -1184,11 +1184,19 @@ h1 {
 }
 
 
-.what ul li{
+.what li{
   list-style-type: circle;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: underline;
   margin-bottom: 10px;
+
+  ul {
+    margin-left: 10px;
+    list-style-type: disc;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
 }
