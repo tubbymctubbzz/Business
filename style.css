@@ -1191,6 +1191,7 @@ h1 {
   align-items: center;
   text-decoration: underline;
   margin-bottom: 10px;
+  font-size: 1.5rem;
 
   ul {
     margin-left: 10px;
