@@ -1182,3 +1182,13 @@ h1 {
     font-size: 20px;
   }
 }
+
+
+.what ul li{
+  list-style-type: circle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
