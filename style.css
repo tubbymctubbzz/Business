@@ -948,7 +948,7 @@ h1 {
   justify-content: center;
 }
 
-.countdown{
+/* .countdown{
   width: 80vw;
   display: flex;
   justify-content: space-around;
@@ -994,7 +994,7 @@ span.text{
   text-align: center;
   padding: 0.5em 0;
   font-weight: 400;
-}
+} */
 
 @media screen and (max-width: 1024px){
   .navbar {
@@ -1168,8 +1168,12 @@ h1 {
 }
 
 .scroll-top {
-  position: fixed;
+  position: inherit;
+  width: 2rem;
+  height: 1rem;
   background-color: #555;
+  display: flex;
+  justify-content: center;
   bottom: 20px;
   right: 20px;
   color: white;
