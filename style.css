@@ -1180,6 +1180,7 @@ h1 {
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
+  scroll-behavior: smooth;
 
   a {
     color: white;
